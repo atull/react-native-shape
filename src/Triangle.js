@@ -3,8 +3,9 @@ import { View, StyleSheet } from 'react-native';
 
 const DefaultDimension = require('./Constants').SHAPE_DIMENSION;
 const SHAPE_DIMENSION = DefaultDimension/2;
+const SHAPE_COLOR = require('./Constants').SHAPE_COLOR;
 
-export const Triangle = ({ color='#1e90ff', scale=1, rotate=0 }) => (
+export const Triangle = ({ color=SHAPE_COLOR, scale=1, rotate=0 }) => (
   <View style={[styles.triangle, { backgroundColor: color, transform: [{ scale }, { rotate: `${rotate}deg` }] }]} />
 );
 

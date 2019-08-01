@@ -1,9 +1,9 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
 
-const SHAPE_DIMENSION = require('./Constants').SHAPE_DIMENSION;
+const { SHAPE_DIMENSION, SHAPE_COLOR } = require('./Constants');
 
-export const Oval = ({ color='#1e90ff', scale=1, rotate=0 }) => (
+export const Oval = ({ color=SHAPE_COLOR, scale=1, rotate=0 }) => (
   <View style={[styles.oval, { backgroundColor: color, transform: [{ scaleX: 2 }, { scale }, { rotate: `${rotate}deg` }] }]} />
 );
 
