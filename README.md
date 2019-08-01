@@ -33,6 +33,12 @@ export default class App extends React.Component {
 }
 ```
 
+## Shapes Supporting
+Currently, this library is supporting only 5 basic shapes mentioned below.
+```bash
+Square, Rectangle, Circle, Oval & Triangle
+```
+
 ## License
 
 MIT
