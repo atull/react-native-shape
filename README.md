@@ -4,6 +4,10 @@ Custom shapes for React Native apps
 
 This library is truly an inspiration from [The shape of CSS](https://css-tricks.com/the-shapes-of-css/) and the example assets for demonstrating this library are been used from an article on [CodeDaily](https://codedaily.io/tutorials/22/The-Shapes-of-React-Native).
 
+## Demo
+
+![demo](./assets/cWR7FKh.gif)
+
 ## Installation
 
 ```bash
