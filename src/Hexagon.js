@@ -6,8 +6,8 @@ const { SHAPE_DIMENSION, SHAPE_COLOR } = require('./Constants');
 export const Hexagon = ({ color=SHAPE_COLOR, scale=1, rotate=0 }) => (
   <View style={[styles.hexagon, { transform: [{ scale }, { rotate: `${rotate}deg` }] }]}>
     <View style={[styles.hexagonInner, { backgroundColor: color }]} />
-    <View style={[styles.hexagonBefore, { borderTopColor: color }]} />
-    <View style={[styles.hexagonAfter, { borderBottomColor: color }]} />
+    <View style={[styles.hexagonBefore, { borderBottomColor: color }]} />
+    <View style={[styles.hexagonAfter, { borderTopColor: color }]} />
   </View>
 );
 
