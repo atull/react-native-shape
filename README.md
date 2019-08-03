@@ -14,6 +14,20 @@ This library is truly an inspiration from [The shape of CSS](https://css-tricks.
 npm install react-native-shape
 ```
 
+## Shapes Supporting
+Currently, this library is supporting only 5 basic shapes mentioned below.
+```bash
+Square, Rectangle, Circle, Oval & Triangle
+```
+
+## Properties
+
+| Props             | Default      |
+|-------------------|--------------|
+| **color**         | #1e90ff      |
+| **rotate**        | 0 (in deg)   |
+| **scale**         | 1            |
+
 ## Example Usage
 
 ```js
@@ -31,12 +45,6 @@ export default class App extends React.Component {
     );
   }
 }
-```
-
-## Shapes Supporting
-Currently, this library is supporting only 5 basic shapes mentioned below.
-```bash
-Square, Rectangle, Circle, Oval & Triangle
 ```
 
 ## License
