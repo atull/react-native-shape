@@ -17,16 +17,16 @@ npm install react-native-shape
 ## Shapes Supporting
 Currently, this library is supporting only 5 basic shapes mentioned below.
 ```bash
-Square, Rectangle, Circle, Oval & Triangle
+Square, Rectangle, Circle, Oval, Triangle, Trapezoid, Pentagon & Hexagon.
 ```
 
 ## Properties
 
-| Props             | Default      |
-|-------------------|--------------|
-| **color**         | #1e90ff      |
-| **rotate**        | 0 (in deg)   |
-| **scale**         | 1            |
+| Name          | Type    | Default      |
+|---------------|---------|--------------|
+| **color**     | String  | #1e90ff      |
+| **rotate**    | Int     | 0 (in deg)   |
+| **scale**     | Float   | 1            |
 
 ## Example Usage
 
