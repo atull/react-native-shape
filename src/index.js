@@ -6,3 +6,4 @@ export * from './Oval';
 export * from './Trapezoid';
 export * from './Pentagon';
 export * from './Hexagon';
+export * from './Octagon';

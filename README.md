@@ -4,6 +4,11 @@ Custom shapes for React Native apps
 
 This library is truly an inspiration from [The shape of CSS](https://css-tricks.com/the-shapes-of-css/) and the example assets for demonstrating this library are been used from an article on [CodeDaily](https://codedaily.io/tutorials/22/The-Shapes-of-React-Native).
 
+Currently, this library is supporting 9 basic shapes mentioned below.
+```bash
+Square, Rectangle, Circle, Oval, Triangle, Trapezoid, Pentagon, Hexagon & Octagon.
+```
+
 ## Demo
 
 ![demo](./assets/cWR7FKh.gif)
@@ -12,12 +17,6 @@ This library is truly an inspiration from [The shape of CSS](https://css-tricks.
 
 ```bash
 npm install react-native-shape
-```
-
-## Shapes Supporting
-Currently, this library is supporting only 5 basic shapes mentioned below.
-```bash
-Square, Rectangle, Circle, Oval, Triangle, Trapezoid, Pentagon & Hexagon.
 ```
 
 ## Properties
@@ -46,6 +45,9 @@ export default class App extends React.Component {
   }
 }
 ```
+
+## Contributing
+Contributions are very welcome for bug fixes & new features
 
 ## License
 

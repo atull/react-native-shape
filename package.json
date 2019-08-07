@@ -1,6 +1,6 @@
 {
   "name": "react-native-shape",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Custom shapes for React Native apps.",
   "main": "src/index.js",
   "scripts": {
@@ -11,5 +11,44 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/atull/react-native-shape.git"
-  }
+  },
+  "homepage": "https://github.com/atull/react-native-shape",
+  "tags": [
+    "react",
+    "react-native",
+    "native",
+    "shape",
+    "shapes",
+    "mobile",
+    "android",
+    "ios",
+    "circle",
+    "oval",
+    "triangle",
+    "square",
+    "demo",
+    "hexagon",
+    "pentagon",
+    "trapezoid",
+    "octagon"
+  ],
+  "keywords": [
+    "react",
+    "react-native",
+    "native",
+    "shape",
+    "shapes",
+    "mobile",
+    "android",
+    "ios",
+    "circle",
+    "oval",
+    "triangle",
+    "square",
+    "demo",
+    "hexagon",
+    "pentagon",
+    "trapezoid",
+    "octagon"
+  ]
 }
